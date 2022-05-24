@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #FFFFFF;
+
+    opacity: 0.5;;
+}
+   a:visited {
+    color: rgb(74, 68, 101);
+}
+   a:active {
+    color: #ffff00;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1280px;
+    height: 1400px;
+    box-shadow: 10px 5px 26px 10px rgb(0 0 0 / 6%);
+}
+.main-block{
+    display: flex;
+    width: 1200px;
+    height: 1320px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    align-items: center;
+}
+.block-1-my-photo{
+    display: inline-block;
+    width: 355px;
+    height: 100%;
+    background-color: #132226;
+}
+.block-1-my-photo > h2{
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.contacts-text, .block-1-my-photo > p{
+    position: relative;
+    top: 50px;
+}
+.soft-skills-text, ul > li{
+    position: relative;
+    top: 100px;
+}
+.block-1-my-photo > p{
+    color: #FB6D3A;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.block-1-my-photo > p > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contacts-phone{
+    text-decoration: none;
+}
+.block-1-my-photo > ul > li{
+    margin-left: 55px;
+    color: #FB6D3A;
+    font-size: 14px;
+}
+.block-1-my-photo > ul > li span {
+    color: #FFFFFF;
+}
+.block-1-tech-skills > h2{
+    position: relative;
+    top: 100px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.block-1-tech-skills{
+    position: relative;
+    top: 45px;  
+}
+.block-1-tech-skills > ul > li{
+    margin-left: 55px;
+    color: #FB6D3A;
+    font-size: 14px;
+}
+.block-1-tech-skills > ul > li span{
+    color: #FFFFFF;
+}
+.my-photo{
+    width: 355px;
+    height: 370px;
+    margin-top: 40px;
+}
+.block-2-5{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block-2-name{
+    width: 525px;
+    height: 230px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.block-2-name > h1{
+    margin-bottom: 20px;
+}
+.block-2-4 > div > p {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #595959;
+}
+.block-3-Projects{
+    width: 525px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+.block-3-Projects > ol > li {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.block-3-Projects > ol > li > a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 13px;
+    text-decoration: none;
+}
+.block-3-Projects > ol > li > div{
+    display: inline-block;
+    width: 93.19px;
+    height: 0px;
+    border-top: 2px dashed #A8A8A8;
+}
+.block-4-about-me{
+    width: 525px;
+    height: 210px;
+}
+.block-2-4 {
+    display: flex;
+    flex-direction: column;
+    width: 71%;
+    height: 87%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.block-2-4 > div > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #000000;
+}
+.block-2-4 > div > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+
+    color: #000000;
+}
+
