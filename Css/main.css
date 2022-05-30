@@ -106,7 +106,7 @@ body{
     height: 370px;
     margin-top: 40px;
 }
-.block-2-5{
+.block-2-4{
     display: inline-flex;
     flex-direction: column;
     width: 100%;
@@ -180,4 +180,3 @@ body{
 
     color: #000000;
 }
-
